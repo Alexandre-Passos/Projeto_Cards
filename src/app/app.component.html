@@ -1,8 +1,13 @@
-<app-botao [plano]="'Simples'" [estilo]="'branco'"  [desabilitar]="false" (emitindoEventoClick)="botaoClicado()"></app-botao>
+<!-- <app-botao [plano]="'Simples'" [estilo]="'branco'"  [desabilitar]="false" (emitindoEventoClick)="botaoClicado()"></app-botao>
 
-<app-botao [plano]="'Avançado'" [estilo]="'roxo'" (emitindoEventoClick)="botaoClicado()"></app-botao>
+<app-botao [plano]="'Avançado'" [estilo]="'roxo'" (emitindoEventoClick)="botaoClicado()"></app-botao> -->
 
-<app-card>
-
+<div class="cards-container">
+    <app-card [estilo]="'roxo'" [plano]="'Completo'" [preco]="170" 
     
-</app-card>
+    (clicado)="botaoClicado()"
+    ></app-card>
+
+    <app-card [estilo]="'laranja'" [plano]="'Básico'" [preco]="99"></app-card>
+
+</div>

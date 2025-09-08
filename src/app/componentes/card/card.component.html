@@ -1,4 +1,12 @@
-<div class="card roxo">
-    <div class="card_plano card_item ">Plano</div>
-    <div class="card_preco card_item">Preço</div>
+<div class="card" [class]="{
+    laranja: estilo === 'laranja' ? true: false,
+    roxo: estilo === 'roxo' ? true: false 
+}">
+    <div class="card_plano card_item ">Plano <b>{{plano}}</b></div>
+    <div class="card_preco card_item">R${{precoPlano}},00/Mês</div>
+
+    <app-botao [estilo]="estilo === 'laranja' ? 'branco': 'roxo'" 
+    
+    
+    [plano]=" 'Completo'" [desabilitar]="false" (click)="botaoClick()"></app-botao>
 </div>

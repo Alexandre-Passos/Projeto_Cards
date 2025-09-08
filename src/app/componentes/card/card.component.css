@@ -3,24 +3,27 @@ div.card {
     border-radius: 25px;
     padding: 30px;
 
-    .card_item {
-        padding: 10px;
-    }
+    
 
     .card_plano {
-        font-size: 22px;
+        font-size: 1.35rem;
     }
 
     .card_preco {
         font-weight: 600;
-        font-size: 40px;
+        font-size: 2.5rem;
     }
+    
+    .card_item {
+        padding: 0.58rem;
+    }
+
 
     &.laranja {
         background-color: #fd7557;
     }
 
     &.roxo {
-        background-color: blueviolet;
+        background-color: rgb(50, 18, 126);
     }
 }
