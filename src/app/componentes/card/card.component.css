@@ -1,0 +1,26 @@
+div.card {
+    max-width: 350px;
+    border-radius: 25px;
+    padding: 30px;
+
+    .card_item {
+        padding: 10px;
+    }
+
+    .card_plano {
+        font-size: 22px;
+    }
+
+    .card_preco {
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    &.laranja {
+        background-color: #fd7557;
+    }
+
+    &.roxo {
+        background-color: blueviolet;
+    }
+}
