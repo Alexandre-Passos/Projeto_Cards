@@ -2,17 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { BotaoComponent } from './componentes/botao/botao.component';
-import { CardComponent } from './componentes/card/card.component';
+import { CardsModule } from './componentes/cards.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    BotaoComponent,
-    CardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CardsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
