@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { CardsComponent } from './componentes/cards/cards.component';
+import { BotaoComponent } from './componentes/botao/botao.component';
+import { CardComponent } from './componentes/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardsComponent
+    BotaoComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule

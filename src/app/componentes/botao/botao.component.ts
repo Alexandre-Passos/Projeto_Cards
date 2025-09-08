@@ -1,11 +1,11 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-cards',
-  templateUrl: './cards.component.html',
-  styleUrls: ['./cards.component.css']
+  selector: 'app-botao',
+  templateUrl: './botao.component.html',
+  styleUrls: ['./botao.component.css']
 })
-export class CardsComponent {
+export class BotaoComponent {
   @Input({ required: true, alias: "plano" }) plano: string = '';
 
   @Input({ required: true, alias: "estilo" }) estilo: 'branco' | 'roxo' = 'branco';
