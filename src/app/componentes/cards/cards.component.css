@@ -1,0 +1,21 @@
+.botao {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+
+    &.branco {
+        background-color: white;
+        color: black;
+    }
+
+    &.roxo {
+        background-color: purple;
+        color: white;
+    }
+
+}
