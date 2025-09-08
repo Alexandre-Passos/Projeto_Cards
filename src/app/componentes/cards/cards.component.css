@@ -5,9 +5,13 @@
     margin-top: 10px;
     border-radius: 25px;
     font-weight: bold;
+    text-transform: uppercase;
     padding: 10px;
     border: none;
+    cursor: pointer;
+    position: relative;
 
+    /* Criando duas classes */
     &.branco {
         background-color: white;
         color: black;
@@ -15,7 +19,12 @@
 
     &.roxo {
         background-color: purple;
-        color: white;
+        
     }
 
+    /* Criando Animação */
+
+    &:active {
+        bottom: -2px;
+    }
 }

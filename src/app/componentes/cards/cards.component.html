@@ -1,4 +1,8 @@
 <button class="botao" [class]="{
     'branco' : estilo === 'branco' ? true: false,
     'roxo': estilo === 'roxo' ? true: false
-}">{{plano}}</button>
+}" (click)="botaoClicado()" [disabled]="desabilitar">
+
+    {{plano}}
+
+</button>

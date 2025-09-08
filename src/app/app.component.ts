@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Projeto_Cards';
+
+
+  botaoClicado() {
+    console.log('Botão clicado!')
+  }
 }
